@@ -1,6 +1,6 @@
-# Luma Studio — website
+# Small Seasons — website
 
-Static website for Luma Studio family, newborn and children's photography.
+Static website for Small Seasons family, newborn and children's photography.
 Plain HTML/CSS/JS: no build step, no framework, nothing to update or break. Hosted free on Netlify, managed from GitHub, edited in Cursor.
 
 ```
@@ -17,7 +17,6 @@ images/           Your photos (see images/README.md)
 
 Search the project (Cursor: Cmd/Ctrl+Shift+F) for these and replace them:
 
-- `YOUR-DOMAIN.co.uk` → your domain
 - `YOUR-HANDLE` → Instagram handle
 - `£XX` / `£XXX` / `XX miles` → your prices and travel radius
 - `[DATE]`, `[YOUR FULL NAME]`, `[X]` in terms.html and privacy.html
@@ -26,7 +25,7 @@ Search the project (Cursor: Cmd/Ctrl+Shift+F) for these and replace them:
 
 ## Setup steps
 
-1. **GitHub** — create a free account, then a new *private* repository called `luma-studio-site`. Upload this folder (drag-and-drop on github.com works, or use Cursor's Source Control panel → "Publish to GitHub").
+1. **GitHub** — create a free account, then a repository. Upload this folder (drag-and-drop on github.com works, or use Cursor's Source Control panel → "Publish to GitHub").
 2. **Cursor** — File → Open Folder → this folder. Edit, then commit and push from the Source Control panel. To preview locally, open `index.html` in your browser.
 3. **Netlify** — sign in with GitHub → "Add new site" → "Import an existing project" → pick the repo. Leave build command empty, publish directory `/`. Every push to GitHub then redeploys automatically.
 4. **Forms** — in Netlify → Site configuration → Forms, enable form detection, then redeploy. Under Forms → Notifications add an email notification to your inbox. Submit a test enquiry.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.YOUR-DOMAIN.co.uk/sitemap.xml
+Sitemap: https://smallseasons.co.uk/sitemap.xml
